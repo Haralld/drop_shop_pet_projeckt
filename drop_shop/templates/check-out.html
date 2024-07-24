@@ -1,0 +1,209 @@
+{% extends "base-page.html" %}
+{% load static %}
+
+
+{% block title %}
+    check_out
+{% endblock title %}
+
+{% block container %}
+
+    <div class="page-desc-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 page-desc blog">
+                    <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Оплата товара</h2>
+                    <p class="animated" data-animation="fadeInLeft" data-animation-delay="300">Производство достижимо в разумные сроки. Поэтому перераспределение бюджета</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="login-section" class="login-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="login-box">
+                        <div class="title-box">
+                            <h2>Войти в кабинет</h2>
+                        </div>
+                        <div class="login-details">
+                            <p>Производство достижимо в разумные сроки. Поэтому перераспределение бюджета отталкивает фирменный медийный канал, размещаясь во всех медиа.</p>
+                            <form role="form" name="commentform" class="login-form" id="commentform" method="post" action="#" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="email" name="contact_email" id="contact_email" class="form-control input-email" placeholder="Логин или e-mail">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="password" name="password" id="password" class="form-control" placeholder="Пароль">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit" id="sendingbtn" class="btn send-button" value="Войти">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="login-box">
+                        <div class="title-box">
+                            <h2>Скидочный код</h2>
+                        </div>
+                        <div class="login-details">
+                            <p>Производство достижимо в разумные сроки. Поэтому перераспределение бюджета отталкивает фирменный медийный канал, размещаясь во всех медиа.</p>
+                            <form role="form" name="commentform" class="login-form" id="comment-form" method="post" action="#" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="contact_number" id="contact_number" class="form-control contact-number" placeholder="Купон сюда..">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit" id="sending-btn" class="btn send-button" value="Применить">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="address-section" class="address-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <h2>Адрес доставки</h2>
+                    <form role="form" name="commentform" class="login-form" id="comment-form-2" method="post" action="#" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="email" name="contact_email" id="input_email" class="form-control input-email" placeholder="Ваш логин">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="first-name" id="first-name" class="form-control input-email" placeholder="Имя">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="last-name" id="last-name" class="form-control input-email" placeholder="Фамилия">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="comapany-name" id="comapany-name" class="form-control input-email" placeholder="Организация">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="address" id="address" class="form-control input-email" placeholder="Страна">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="town-city" id="town-city" class="form-control input-email" placeholder="Город, населенный пункт">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="state-country" id="state-country" class="form-control input-email" placeholder="улица, номер дома">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="phone" id="phone" class="form-control input-email" placeholder="Телефон">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="post-code" id="post-code" class="form-control input-email" placeholder="Почтовый индекс">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="telephone" id="telephone" class="form-control input-email" placeholder="Телефон для связи"> <span><input type="checkbox"></span><a href="#" class="check-text">Создать аккаунт</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-6 shipping-address">
+                    <h2>Ваш комментарий</h2>
+                    <textarea id="contact_message" class="form-control textarea-message contact-message-box" data-bv-field="contact_message" name="contact_message" placeholder="Пишите сюда" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="order-section" class="order-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Ваш заказ</h2>
+                    <div class="order-box">
+                        <table class="table">
+                            <tr class="table-title">
+                                <td>Товар</td>
+                                <td>Цена</td>
+                            </tr>
+                            <tr class="prodect-title">
+                                <td>Название товара</td>
+                                <td>999 р.</td>
+                            </tr>
+                            <tr class="prodect-title">
+                                <td>Название товара</td>
+                                <td>999 р.</td>
+                            </tr>
+                            <tr class="table-title sub-total">
+                                <td>Итого</td>
+                                <td>2 000 р.</td>
+                            </tr>
+                            <tr class="table-title delivery">
+                                <td>Доставка</td>
+                                <td>Бесплатно</td>
+                            </tr>
+                            <tr class="table-title total-price">
+                                <td>К оплате</td>
+                                <td class="blue-text">2 000 р.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row payment-method">
+                <div class="col-md-12">
+                    <div class="bank-payment">
+                        <input id="bank-payment" type="radio" value="bank" checked="checked" name="payment-method">
+                        <label for="bank-payment">WebMoney</label>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="cheque-payment">
+                        <input id="cheque-payment" type="radio" value="cheque" checked="checked" name="payment-method">
+                        <label for="cheque-payment">Яндекс деньги</label>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="cheque-payment">
+                        <input id="cheque2-payment" type="radio" value="cheque" checked="checked" name="payment-method">
+                        <label for="cheque2-payment">QIWI</label>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="paypal-payment">
+                        <input id="paypal-payment" type="radio" value="paypal" checked="checked" name="payment-method">
+                        <label for="paypal-payment">Robokassa</label>
+                        <a href="#" title="Master Card"><img src='{% static "images/payment-method/mastercard.jpg" %}' alt="payment method">
+                        </a>
+                        <a href="#" title="Visa"><img src='{% static "images/payment-method/visa.jpg" %}' alt="payment method">
+                        </a>
+                        <a href="#" title="Amex"><img src='{% static "images/payment-method/amex.jpg" %}' alt="payment method">
+                        </a>
+                        <a href="#" title="DISCOVER"><img src='{% static "images/payment-method/discover.jpg" %}' alt="payment method">
+                        </a>
+                        <a href="#" title="eCHECK"><img src='{% static "images/payment-method/echeck.jpg" %}' alt="payment method">
+                        </a>
+                    </div><a href="#"><h4>Я готов заплатить</h4></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock container %}

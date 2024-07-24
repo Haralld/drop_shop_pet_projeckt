@@ -1,0 +1,140 @@
+{% extends "base-page.html" %}
+{% load static %}
+
+
+{% block title %}
+    Home page
+{% endblock title %}
+
+{% block container %}
+
+    <div class="page-desc-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 page-desc blog">
+                    <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Описание новости</h2>
+                    <p class="animated" data-animation="fadeInLeft" data-animation-delay="300">Производство достижимо в разумные сроки. Поэтому перераспределение бюджета</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="blog-post">
+        <div class="container">
+            <div class="row">
+                <div class="blog-top animated" data-animation="fadeInUp" data-animation-delay="500"><img src='{% static "images/blog/2.jpg" %}' alt="blog-photo" class="img-responsive blog-photo">
+                    <div class="blog-date">
+                        <h2>16</h2>
+                        <p>Авг</p>
+                        <h4>2016</h4>
+                    </div>
+                </div>
+                <div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Заголовок новости на сайте</h3>
+                            <p class="blog-content">Дело в том, что объемная скидка традиционно восстанавливает обществвенный комплексный анализ ситуации. Служба маркетинга компании, как принято считать, индуцирует побочный PR-эффект. Поведенческий таргетинг усиливает рыночный системный анализ. Инструмент маркетинга сознательно экономит продвигаемый стратегический маркетинг. Управление брендом, вопреки мнению П.Друкера, синхронизирует эксклюзивный пресс-клиппинг. Сегмент рынка, на первый взгляд, экономит из ряда вон выходящий принцип восприятия.</p>
+                            <p class="blog-content">Конкурент, безусловно, исключительно транслирует контент. Стратегический рыночный план охватывает потребительский рынок, расширяя долю рынка. Показ баннера без оглядки на авторитеты отталкивает ребрендинг, не считаясь с затратами.</p>
+                            <div class="row post-details">
+                                <div class="col-sm-3 col-md-2"><i class="fa fa-user"><span>Автор:</span></i>Иван</div>
+                                <div class="col-sm-3 col-md-2"><i class="fa fa-comments"><span>Комментарии:</span></i>5</div>
+                                <div class="col-sm-3 col-md-2"><i class="fa fa-folder"><span>Категория:</span></i>Новости</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="about-author">
+                        <div class="thumb"><img src='{% static "images/blog-single/author.jpg" %}' alt="author-images" class="img-responsive author-photo">
+                        </div>
+                        <h3>Иван Дионтьев</h3>
+                        <p>Конкурент, безусловно, исключительно транслирует контент. Стратегический рыночный план охватывает потребительский рынок, расширяя долю рынка. Показ баннера без оглядки на авторитеты отталкивает ребрендинг, не считаясь с затратами.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comments-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>4 комментария</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="comment">
+                        <div class="thumb"><img src='{% static "images/blog-single/author.jpg" %}' alt="author-images" class="img-responsive author-photo">
+                        </div>
+                        <h3>Иван Дионтьев<span>31 августа 2016</span></h3>
+                        <p>Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                        <p><a href="#">Ответить</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="comment reply">
+                        <div class="thumb"></div>
+                        <h3>Иван Дионтьев<span>31 августа 2016</span></h3>
+                        <p>Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                        <p><a href="#">Ответить</a>
+                        </p>
+                    </div>
+                    <div class="comment reply animated" data-animation="fadeInUp" data-animation-delay="500">
+                        <div class="thumb"></div>
+                        <h3>Иван Дионтьев<span>31 августа 2016</span></h3>
+                        <p>Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                        <p><a href="#">Ответить</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="comment">
+                        <div class="thumb"><img src='{% static "images/blog-single/author.jpg" %}' alt="author-images" class="img-responsive author-photo">
+                        </div>
+                        <h3>Иван Дионтьев<span>31 августа 2016</span></h3>
+                        <p>Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                        <p><a href="#">Ответить</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comment-form animated" data-animation="fadeInUp" data-animation-delay="500">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Оставить комментарий</h2>
+                </div>
+            </div>
+            <p class="comment-message"></p>
+            <form role="form" name="commentform" class="form-horizontal" id="commentform" method="post">
+                <div class="row">
+                    <div class="col-md-4 left-area">
+                        <div class="input-group form-group"><span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input type="text" name="contact_name" class="input-name form-control" placeholder="Имя">
+                        </div>
+                        <div class="input-group form-group"><span class="input-group-addon"><i class="flaticon-black164"></i></span>
+                            <input type="email" name="contact_email" class="input-email form-control" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <div class="col-md-8 right-area">
+                        <div class="textarea-message form-group">
+                            <textarea name="contact_message" class="textarea-message form-control" placeholder="Сообщение.." rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 left-area">
+                        <button class="btn btn-default" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+{% endblock container %}

@@ -1,0 +1,151 @@
+{% extends "base-page.html" %}
+{% load static %}
+
+
+{% block title %}
+    Home page
+{% endblock title %}
+
+{% block container %}
+
+        <div class="page-desc-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 page-desc">
+                        <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Наши контакты</h2>
+                        <p class="animated" data-animation="fadeInLeft" data-animation-delay="300">Производство достижимо в разумные сроки. Поэтому перераспределение бюджета</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="our-contact-section" class="our-contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="500">Здесь содержится контактная информация</h2>
+                        <p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="500">Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container map-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="map">
+                            <div id="map_canvas"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#contact-details-section" class="contact-details-section">
+            <div class="section slant-angle">
+                <div class="section-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Адрес, телефон, почта</h2>
+                                <p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">Стратегическое планирование, безусловно, недостижимо. Экспертиза выполненного проекта естественно переворачивает стратегический маркетинг. Жизненный цикл продукции естественно детерминирует эмпирический опрос.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="500">
+                                <div class="datail-box">
+                                    <div class="detail-title">
+                                        <h3>Москва</h3>
+                                    </div>
+                                    <div class="detail-content">
+                                        <h4>Адрес</h4>
+                                        <p>ул. Пушкина 23</p>
+                                        <h4>Телефон</h4>
+                                        <p>+7 123 456 78 90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="datail-box">
+                                    <div class="detail-title">
+                                        <h3>Санкт-Петербург</h3>
+                                    </div>
+                                    <div class="detail-content">
+                                        <h4>Адрес</h4>
+                                        <p>ул. Пушкина 23</p>
+                                        <h4>Телефон</h4>
+                                        <p>+7 123 456 78 90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="900">
+                                <div class="datail-box">
+                                    <div class="detail-title">
+                                        <h3>Сочи</h3>
+                                    </div>
+                                    <div class="detail-content">
+                                        <h4>Адрес</h4>
+                                        <p>ул. Пушкина 23</p>
+                                        <h4>Телефон</h4>
+                                        <p>+7 123 456 78 90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="1100">
+                                <div class="datail-box">
+                                    <div class="detail-title">
+                                        <h3>e-mail</h3>
+                                    </div>
+                                    <div class="detail-content">
+                                        <h4>Краснодар</h4>
+                                        <p>ул. Пушкина 23</p>
+                                        <h4>Телефон</h4>
+                                        <p>+7 123 456 78 90</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#customer-support-section" class="customer-support-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Форма обратной связи</h2>
+                        <p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">Партисипативное планирование методически масштабирует фактор коммуникации. Диверсификация бизнеса откровенна. А вот по мнению аналитиков психология восприятия рекламы экономит мониторинг активности.</p>
+                    </div>
+                </div>
+                <div class="contact-boxes animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <p class="comment-message"></p>
+                    <form role="form" name="commentform" class="contact-form-horizontal" id="commentform" method="post" action="contact.php" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="input-group form-group"><span class="input-group-addon"><span class="fa fa-user"></span></span>
+                                    <input type="text" name="contact_name" id="contact_name" class="form-control input-name" placeholder="Имя">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="input-group form-group"><span class="input-group-addon"><span class="flaticon-black164"></span></span>
+                                    <input type="email" name="contact_email" id="contact_email" class="form-control input-email" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="input-group form-group"><span class="input-group-addon"><span class="flaticon-phone46"></span></span>
+                                    <input type="text" name="contact_number" id="contact_number" class="form-control input-phone-number" placeholder="Телефон">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 message-box form-group">
+                                <textarea class="form-control textarea-message contact-message-box" rows="3" placeholder="Сообщение..." name="contact_message" data-bv-field="contact_message" id="contact_message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row send-btn">
+                            <div class="col-md-12">
+                                <input type="submit" id="sendingbtn" class="btn send-button" value="Готово">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+{% endblock container %}

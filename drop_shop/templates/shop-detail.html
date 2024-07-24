@@ -1,0 +1,313 @@
+{% extends "base-page.html" %}
+{% load static %}
+
+
+{% block title %}
+    Home page
+{% endblock title %}
+
+{% block container %}
+
+    <div class="page-desc-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 page-desc">
+                    <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Описание товара</h2>
+                    <p class="animated" data-animation="fadeInLeft" data-animation-delay="300">Экспансия усиливает конвергентный продуктовый ассортимент.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="product-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 product-slider animated" data-animation="fadeInUp" data-animation-delay="300">
+                    <div id="big-detail" class="owl-carousel">
+                        <div class="item"><img src='{% static "images/shop/1.png" %}' class="img-responsive">
+                        </div>
+                        <div class="item"><img src='{% static "images/shop/2.png" %}' class="img-responsive">
+                        </div>
+                        <div class="item"><img src='{% static "images/shop/3.png" %}' class="img-responsive">
+                        </div>
+                    </div>
+                    <div id="small-detail" class="owl-carousel">
+                        <div class="item first"><img src='{% static "images/shop/small-1.png" %}' class="img-responsive">
+                        </div>
+                        <div class="item"><img src='{% static "images/shop/small-1.png" %}' class="img-responsive">
+                        </div>
+                        <div class="item last"><img src='{% static "images/shop/small-1.png" %}' class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 product-description animated" data-animation="fadeInUp" data-animation-delay="500"><a href="#">Назавние товара</a>
+                    <h3>700 рублей</h3>
+                    <p>Высокая информативность экономит рекламный бриф. Визуализация концепии, безусловно, изящно охватывает эксклюзивный метод изучения рынка. Стратегия предоставления скидок и бонусов отражает медиамикс, полагаясь на инсайдерскую информацию. Экспансия усиливает конвергентный продуктовый ассортимент.</p>
+                    <p>
+                        <input id="input-21d" value="3" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"><i class="fa fa-shopping-cart"></i>
+                                        </div>
+                                        <div class="col-xs-10">
+                                            <p>Покупка</p>
+                                            <h4>Быстрая оплата</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"><i class="fa fa-shield"></i>
+                                        </div>
+                                        <div class="col-xs-10">
+                                            <p>SSL соединение</p>
+                                            <h4>Безопасность</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"><i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="col-xs-10">
+                                            <p>Лучшие товары</p>
+                                            <h4>Уникальный контент</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row range-input">
+                        <div class="col-xs-2">
+                            <div class="input-group" data-trigger="spinner">
+                                <div class="input-group-addon"><a href="javascript:;" data-spin="down"><i class="fa fa-minus"></i></a>
+                                </div>
+                                <input type="text" class="form-control" value="1" data-rule="quantity">
+                                <div class="input-group-addon"><a href="javascript:;" data-spin="up"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="discount-code" placeholder="Ваш скидочный купон">
+                        </div>
+                    </div>
+                    <div class="row add-buttons">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn add-cart"><i class="fa fa-shopping-cart"></i>В корзину</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn"><i class="fa fa-heart"></i>В избранное</button>
+                        </div>
+                    </div>
+                    <div class="row category-tags">
+                        <div class="col-xs-12">
+                            <p>Категория товара: <a href="#">Одежда</a>
+                            </p>
+                            <p>Теги: услуги, товары, шаблоны, новое</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#more-information" role="tab" data-toggle="tab">Описание</a>
+                        </li>
+                        <li role="presentation"><a href="#specifications" role="tab" data-toggle="tab">Характеристики</a>
+                        </li>
+                        <li role="presentation"><a href="#images" role="tab" data-toggle="tab">Отзывы</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="more-information">
+                            <p>Высокая информативность экономит рекламный бриф. Визуализация концепии, безусловно, изящно охватывает эксклюзивный метод изучения рынка. Стратегия предоставления скидок и бонусов отражает медиамикс, полагаясь на инсайдерскую информацию. Экспансия усиливает конвергентный продуктовый ассортимент.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="specifications">
+                            <p>Высокая информативность экономит рекламный бриф. Визуализация концепии, безусловно, изящно охватывает эксклюзивный метод изучения рынка. Стратегия предоставления скидок и бонусов отражает медиамикс, полагаясь на инсайдерскую информацию. Экспансия усиливает конвергентный продуктовый ассортимент.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="images">
+                            <p>Высокая информативность экономит рекламный бриф. Визуализация концепии, безусловно, изящно охватывает эксклюзивный метод изучения рынка. Стратегия предоставления скидок и бонусов отражает медиамикс, полагаясь на инсайдерскую информацию. Экспансия усиливает конвергентный продуктовый ассортимент.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="top-sales-slider" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 animated" data-animation="fadeInUp" data-animation-delay="300">
+                    <h2>Похожие товары</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container slider-container animated" data-animation="fadeInUp" data-animation-delay="500">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="top-sales">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/1.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/1.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/2.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/2.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/3.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/3.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/4.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/4.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/5.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/5.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/6.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/6.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/7.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/7.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <div class="photo-block"><a class="add-cart-link" data-rel="prettyPhoto" href='{% static "images/top-sales/8.jpg" %}' title="Название товара"><i class="fa fa-plus"></i></a> <img src='{% static "images/top-sales/8.jpg" %}' class="img-responsive" alt="top-sales">
+                                </div>
+                                <div class="caption"><a href="#" class="category">Категория</a> <a href="#">Название товара</a>
+                                    <h4>500 р.</h4>
+                                    <p>
+                                        <input value="2" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"><span>- рейтинг товара</span>
+                                    </p>
+                                    <div class="row cart-details">
+                                        <div class="col-xs-6"><a href="#"><i class="fa fa-shopping-cart"></i> В корзину</a>
+                                        </div>
+                                        <div class="col-xs-6"><a href="#" class="pull-right">Подробнее <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock container %}

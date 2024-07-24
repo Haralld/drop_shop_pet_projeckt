@@ -1,0 +1,468 @@
+/* Color */
+.scrolling, .section .owl-controls .owl-buttons div i, 
+.site-logo a, .carousel-caption .btn:hover, 
+.footer-section .latest-post li a:hover, 
+.copy-rights-section p, 
+.copy-rights-section a, 
+.footer-section a:hover, 
+.copy-rights-bg .social-icon a:hover,
+.page-desc-section .page-desc:before, 
+#projects .page-desc-section h2, 
+#projects .page-desc-section .page-desc:before, 
+#projects .your-works-section ul.work-pagination li a:hover, 
+#projects .your-works-section ul.work-pagination a:focus, 
+#projects .your-works-section ul.work-pagination li a:active, 
+#projects .your-works-section .work-pagination li.preview:hover .fa, 
+#projects .your-works-section .work-pagination li.next:hover .fa, 
+#single-projects .page-desc-section .page-desc:before, 
+#single-projects .section .owl-buttons i, .page-desc-section h2, 
+#about-us .know-about-us-section h3, 
+#about-us .review-section a:hover, 
+#blog .page-desc-section .page-desc:before, 
+.blog-post .thumbnail .btn:hover, 
+.blog-post .post-details i, 
+.flex-prev,
+.flex-next, 
+.flex-direction-nav a:before, 
+.blog-post .pagination > li:first-child > a,
+.blog-post .pagination > li:first-child > span,
+.blog-post .pagination > li:last-child > a,
+.blog-post .pagination > li:last-child > span, 
+.pagination > li > a:hover, .pagination > li > span:hover, 
+.pagination > li > a:focus, .pagination > li > span:focus,  
+.about-author h3, .comment a, 
+.comment-form .input-group-addon i, 
+#services .page-desc-section .page-desc:before, 
+#contact-us .page-desc-section h2, 
+#contact-us .page-desc-section .page-desc:before, 
+#contact-us .customer-support-section .input-group .input-group-addon:first-child, 
+.footer-section .latest-post li a:hover, 
+#single-projects .single-item-section .project-details h4, 
+.zoom.work-control, 
+.link.work-control, 
+#projects .your-works-section .zoom.work-control, 
+#projects .your-works-section .link.work-control, 
+#contact-us .customer-support-section .send-btn .send-button:hover,
+/* New Color */
+.site-logo a,
+.button-block .nav-tabs > li > a:hover, .button-block .nav-tabs > li > a:focus, .button-block .nav-tabs > li > a.active,
+.top-sale-section .prodect-box h2,
+.top-sale-section .prodect-box .shoping-details a,
+ul.top-sale-pagination li a:hover, ul.top-sale-pagination a:focus, ul.top-sale-pagination li a:active,
+.top-sale-pagination li.preview:hover .fa, 
+.top-sale-pagination li.next:hover .fa,
+.new-additions-items:hover h4,
+.new-additions .new-additions-items a,
+.button-block .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.shop-list-section .item-panel h4,
+.shop-list-section .item-panel ul li a, .shop-list-section .item-panel ul li a,
+.shop-list-section .item-panel ul li .fa,
+ul.top-sale-pagination li a:hover, ul.top-sale-pagination a:focus, ul.top-sale-pagination li a:active,
+.top-sale-pagination li.preview:hover .fa, .top-sale-pagination li.next:hover .fa,
+#shop-list-layout-2-col .loadmore-btn .btn.loadmore:hover,
+.filter .filter-category-box .panel-default > .panel-heading,
+.filter .filter-category-box .panel-body a li:hover, 
+.filter .filter-category-box .panel-body a li:focus, 
+.filter .filter-category-box .panel-body a li.active,
+.top-rated-prodect-box .item-body:hover .item-details h4,
+.top-rated-prodect-box .item-body .item-details h4.price,
+.top-rated-prodect-box .see-all-link:hover,
+.filter .testimonials-box .testimonial-slider h3,
+.filter-print-price a h4:hover,
+.shop-list-section .button-block li.list .btn:hover,
+.shop-list-section .button-block li.grid .btn:hover,
+.shop-list-section .button-block li.list .btn:active, 
+.shop-list-section .button-block li.grid .btn:active,
+.shop-list-section .button-block li .btn.top-icon:hover,
+#shop-list-layout-3-col .loadmore-btn .btn.loadmore:hover,
+#shop-list-layout-2-col .loadmore-btn .btn.loadmore:hover,
+#shop-detail .page-desc-section .page-desc:before,
+#top-slider .owl-controls .owl-prev,
+#top-slider .owl-controls .owl-prev:after,
+#top-slider .owl-controls .owl-next,
+#top-slider .owl-controls .owl-next:after,
+.section .owl-controls .owl-buttons div i,
+#shop-detail .product-detail .product-description > h3,
+#shop-detail .product-detail .product-description .panel-body h4,
+#shop-detail .product-detail .product-description .category-tags p > a,
+#shop-detail .product-detail .product-description .add-buttons .btn:hover,
+.item .thumbnail > .caption > h4,
+.item .thumbnail > .caption > .cart-details a,
+.side-bar .panel .panel-body > ul > li.top-rated > p.price,
+.side-bar .panel .panel-body > ul > li.top-rated > a.product-link:hover,
+.side-bar .panel .panel-body .see-top a,
+.side-bar .panel > .panel-body > #testimonial .item > p.customer-name,
+.side-bar .panel-body.related-product .product-description p.product-price,
+.side-bar .panel-body.related-product .product-description a.product-name:hover,
+.top-sales-list .panel .panel-body h4,
+.top-sales-list .panel .panel-body .cart-details a,
+.top-sales-list .btn,
+.side-bar .panel-body.related-product .product-description .cart-details a,
+#shopping-cart .table-bordered > tbody > tr > td.price h3, 
+#shopping-cart .table-bordered > tbody > tr > td.total h3,
+#delivery-total .cart-total-detail .final-total h4,
+#delivery-total .form-group .btn.apply:hover, 
+#delivery-total .cart-total-detail .final-total .btn:hover,
+.login-box .login-form .send-button:hover,
+.order-section .order-box .table-title.total-price td.blue-text,
+.payment-method a h4:hover,
+#order-received .order-received-inner h4,
+.shipping-address .button:hover,
+li.cart .dropdown-menu li h5,
+.menu-bar .nav > li.search:hover, .navbar-default .navbar-nav > li.search > a:hover,.menu-bar .nav > li.search:focus, .navbar-default .navbar-nav > li.search > a:focus,
+.menu-bar .navbar-nav .input-group .btn-default,
+.team-section .social-team li .fa:hover,
+.blog-classic .blog-post .thumbnail .caption a,
+.blog-classic .blog-post .thumbnail h3,
+/* Classic Portfolio */
+#projects .your-works-section .works .thumbnail > .caption > h3,
+.blog-column .blog-post a.read-more,
+.fra-slider h1,
+.fraction-slider .prev,
+.fraction-slider .next,
+.title span > .color,
+.fra-slider a.btn:hover,
+.carousel-caption h1,
+.carousel-control.right, 
+.carousel-control.left,
+.video-section .button:hover > a,
+.pricing .price-box .currency,
+.development .left-tab .nav-tabs > li > a,
+.right-tab .nav-tabs > li a,
+.right-tab .tabs .tab-content a,
+.author-details .name,
+.development .button:hover > a
+{
+	color:#38486F !important;
+}
+
+/* Background Color */
+.button, 
+.section .owl-controls .owl-buttons div:hover, 
+.site-logo a:before, 
+.menu-bar .nav > li:hover , 
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a.active, 
+.carousel-indicators li.active, 
+.left.carousel-control:hover,
+.right.carousel-control:hover, 
+.carousel-caption .btn, .work-box, 
+.features-section .feature-icon, 
+.video-section .button, 
+.pricing .price-box .premium, 
+.pricing .price-box .premium:after,  
+.development .nav-tabs > li.active > a, 
+.development .nav-tabs > li.active > a:hover, 
+.development .nav-tabs > li.active > a:focus, 
+.right-tab .nav-tabs > li.active > a:after, 
+#projects .your-works-section .work-pagination li.preview, 
+#projects .your-works-section .work-pagination li.next, 
+#projects .your-works-section .work-pagination li.preview:after, 
+#projects .your-works-section .work-pagination li.next:after,  
+#about-us .tap-section .panel-heading .accordion-toggle:before, 
+#about-us .skill-counter-section .progress-bar, 
+.blog-post .thumbnail .btn, .blog-post .blog-date, 
+.flex-prev:hover,.flex-next:hover, 
+.blog-post .pagination > li:first-child > a:hover,
+.blog-post .pagination > li:last-child > a:hover, 
+.comment-form button, #contact-us .contact-details-section .datail-box .detail-title, 
+#contact-us .contact-details-section .datail-box .detail-title:after, 
+#contact-us .customer-support-section .send-btn .send-button, 
+#about-us .tap-section .panel-heading .accordion-toggle:before, 
+#about-us .tap-section .panel-heading .accordion-toggle:after, 
+.menu-box,
+/* New Background */
+.top-sale-pagination li.preview, 
+.top-sale-pagination li.next,
+.top-sale-pagination li.preview:after,
+.top-sale-pagination li.next:after,
+.new-additions .loadmore-btn .loadmore,
+.new-additions .loadmore-btn .loadmore:after,
+.shop-list-section .item-panel .offer-box,
+.shop-list-section .item-panel .offer-box:after,
+.top-sale-pagination li.preview, .top-sale-pagination li.next,
+.top-sale-pagination li.preview:after,
+.top-sale-pagination li.next:after,
+#shop-list-layout-2-col .loadmore-btn .loadmore,
+#shop-list-layout-3-col .loadmore-btn .loadmore,
+#shop-list-layout-3-col .shop-list-section .item-panel .offer-box,
+.filter .filter-category-box .counting-box,
+.filter .filter-category-box .panel-title:hover .filter .filter-category-box .counting-box,
+.bar,
+.bar:after,
+.bar:before,
+.filter-print-price a h4,
+#product-tab .nav-tabs > li.active > a,
+.side-bar .panel > .panel-body.tags-widget > a:hover,
+.top-sales-list .panel .panel-body .discount-flag,
+#shopping-cart .table-bordered .range-input .minus, #shopping-cart .table-bordered  .range-input .plus,
+.login-box .login-form .send-button,
+#delivery-total .form-group .btn.apply, 
+#delivery-total .cart-total-detail .final-total .btn, 
+.shipping-address .button, 
+#shop-detail .product-detail .product-description .add-buttons .btn.add-cart,
+.payment-method a h4,
+li.cart .dropdown-menu .checkout,
+.menu-bar .nav > li:hover, 
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default.menu-bar .navbar-nav > .open > a, 
+.navbar-default.menu-bar .navbar-nav > .open > a:hover, 
+.navbar-default.menu-bar .navbar-nav > .open > a:focus,
+.menu-bar .dropdown .dropdown-menu,
+#bar,
+#top-slider .owl-controls .owl-prev:hover,#top-slider .owl-controls .owl-next:hover,
+.welcome-box,
+.sub-menu,
+/* Classic portfolio */
+#projects .your-works-section .category-buttons .nav-pills > li > a.active,#projects .your-works-section .category-buttons .nav-pills > li > a.active:hover,#projects .your-works-section .category-buttons .nav-pills > li > a.active:focus,
+.fra-slider a,
+.fraction-slider .prev:hover,
+.fraction-slider .next:hover,
+.slider-button > li > .btn.btn-line:hover,
+.slider-button > li > .btn
+{
+	background:#38486F;
+}	
+
+/* Border Color */
+.section .owl-controls .owl-buttons div, 
+.navbar-header .navbar-toggle,  
+.has-error .input-group-addon,
+.has-success .input-group-addon, 
+.has-error .form-control,
+.has-error .form-control:focus,
+.has-success .form-control,
+.has-success .form-control:focus,
+/* New Border Color */
+.login-box .login-form .form-control:focus, 
+.login-box .login-form .form-control:hover,
+.login-box .login-form .send-button,
+.login-box .login-form .send-button:hover,
+#delivery-total .form-group .btn.apply:hover, 
+#delivery-total .cart-total-detail .final-total .btn:hover, 
+.shipping-address .button:hover, 
+#shop-detail .product-detail .product-description .add-buttons .btn.add-cart:hover, 
+#shop-detail .product-detail .product-description .add-buttons .btn:hover, 
+.load-posts:hover, 
+#delivery-total .form-group .btn.apply, 
+#delivery-total .cart-total-detail .final-total .btn, 
+.shipping-address .button, 
+#shop-detail .product-detail .product-description .add-buttons .btn.add-cart,
+#address-section .form-control:focus, .login-box .login-form .form-control:hover,
+.payment-method a h4,
+.payment-method a h4:hover,
+.section .owl-buttons .owl-prev:after,
+.section .owl-buttons .owl-next:after,
+.blog-post .thumbnail .btn:hover,
+.blog-post .pagination > li:first-child > a,
+.blog-post .pagination > li:first-child > span,
+.blog-post .pagination > li:last-child > a,
+.blog-post .pagination > li:last-child > span,
+.blog-post .pagination > li:first-child > a:after, 
+.blog-post .pagination > li:first-child > span:after,
+.blog-post .pagination > li:last-child > a:after, 
+.blog-post .pagination > li:last-child > span:after,
+#contact-us .contact-details-section .datail-box:after,
+#contact-us .contact-details-section .datail-box,
+#contact-us .customer-support-section .form-control,
+#contact-us .customer-support-section .input-group .input-group-addon:first-child,
+#contact-us .customer-support-section .send-btn .send-button,
+.filter-print-price a h4:hover,
+.filter-print-price a h4,
+.top-sale-pagination li.preview,
+.top-sale-pagination li.next,
+.top-sale-pagination li.preview:hover, 
+.top-sale-pagination li.next:hover,
+.top-sale-pagination li:hover.preview:after, 
+.top-sale-pagination li:hover.next:after,
+#top-slider .carousel-caption .btn:hover,
+#top-slider .owl-controls .owl-prev,
+#top-slider .owl-controls .owl-prev:after,
+#top-slider .owl-controls .owl-next,
+#top-slider .owl-controls .owl-next:after, 
+.section .owl-buttons .owl-next:after,
+.section .owl-buttons .owl-prev:after,
+.section .owl-buttons .owl-next,
+.section .owl-buttons .owl-prev,
+#projects .your-works-section .work-pagination li.preview, 
+#projects .your-works-section .work-pagination li.next,
+#projects .your-works-section .work-pagination li.preview:after,
+#projects .your-works-section .work-pagination li.next:after,
+#shop-list-layout-2-col .loadmore-btn .loadmore:after,
+#shop-list-layout-2-col .loadmore-btn .btn.loadmore:hover,
+#shop-list-layout-3-col .loadmore-btn .loadmore:after,
+#shop-list-layout-3-col .loadmore-btn .btn.loadmore:hover,
+.login-box .login-form .send-button:hover, 
+#delivery-total .form-group .btn.apply:hover, 
+#delivery-total .cart-total-detail .final-total .btn:hover, 
+.shipping-address .button:hover, 
+#shop-detail .product-detail .product-description .add-buttons .btn.add-cart:hover, 
+#shop-detail .product-detail .product-description .add-buttons .btn:hover, 
+.load-posts:hover,
+#product-tab .tab-content,
+.payment-method a h4,
+.price-category,
+.pricing .price-box .price-category:after,
+.comment-form button:hover, 
+.btn-default[disabled],
+.page-desc-section,
+.fraction-slider .prev,
+.fraction-slider .next,
+.fraction-slider .prev:after,
+.fraction-slider .next:after,
+.slider-button > li > .btn,
+.fra-slider a.btn:hover,
+.carousel-caption .btn:hover,
+.carousel-control.right, 
+.carousel-control.left,
+.video-section .button:hover, 
+.right-tab .tabs,
+.development .button:hover
+{
+	border:1px solid #38486F !important;
+}
+/*blog-form*/
+.has-error .input-group-addon, .has-success .input-group-addon, .has-error .form-control, .has-error .form-control:focus, .has-success .form-control, .has-success .form-control:focus,.form-control:focus,.comment-form .form-control,.comment-form .form-control,.comment-form .input-group-addon,.right-tab .nav-tabs > li a{
+	border-color:#38486F;
+}
+.blog-classic .blog-post .blog-date:after{
+	border-top: 10px solid #38486F;
+}
+
+/* Border Bottom Color */
+.section .owl-buttons .owl-prev:after, 
+.section .owl-buttons .owl-next:after, 
+.left.carousel-control:after, 
+.right.carousel-control:after, 
+.development .right-tab .nav-tabs, 
+.flex-prev:after, .flex-next:after,
+#projects .your-works-section .work-pagination li.preview:after,
+.carousel-control.right:after, 
+.carousel-control.left:after{	
+    border-bottom: 1px solid #38486F;
+}
+.rightGrip, .leftGrip{
+	border-bottom: 10px solid #38486F !important;
+}
+
+/* Border Right Color */
+.section .owl-buttons .owl-prev:after, .left.carousel-control:after, .flex-prev:after, .left.carousel-control:after {	
+    border-right: 1px solid #38486F;
+}
+.menu-bar .navbar-nav .input-group .btn-default{
+	border-right: 5px solid #38486F;
+}
+
+/* Border Left Color */
+.section .owl-buttons .owl-next:after, .right.carousel-control:after, .flex-next:after, #contact-us .customer-support-section .contact-message-box  {	
+    border-left: 1px solid #38486F;
+}
+
+/* Border Color (right-color)*/
+.development .left-tab .nav-tabs > li.active > a:after {
+    border-color: transparent transparent transparent #38486F;
+}
+
+/* Border Top 18px  */
+.features-section .feature-icon:after{	
+    border-top: 18px solid #38486F;
+}
+
+/* Border top 23px */
+.blog-post .blog-date:after{
+	border-top: 23px solid #38486F; 
+}
+
+.top-sales-list .panel .panel-body .discount-flag:after{
+	border-top: 15px solid #38486F;
+}
+
+/* Box Shadow 3px px */
+.footer-section .flickr img:hover{
+	box-shadow:0 0 0 3px #38486F;
+}
+
+#contact-us .customer-support-section .comment-message{
+	color: #38486F !important;
+}
+.menu-bar .navbar-nav .input-group .form-control, .menu-bar .navbar-nav .input-group .btn-default{
+	border:5px solid #38486F;
+}
+.menu-bar .navbar-nav .input-group .btn-default{
+	border-right:5px solid #38486F !important;
+}
+/* mask */
+.owl-item .mask, #projects .your-works-section .work-item .mask, .section .owl-controls .owl-page.active span, #projects .your-works-section .works .thumbnail .mask{
+  	background-color: rgba(56, 72, 111, 0.66);
+}
+.top-rated-prodect-box .item-body:hover li.overlay:before{
+	background-color: rgba(35, 181, 194, 0.6);
+}
+.side-bar .panel .panel-body > ul > li .mask{
+	background-color: rgba(35, 181, 194, 0.7);
+}
+.side-bar .panel .panel-body > ul > li .mask:after{
+	background-color: rgba(35, 181, 194, 0.5);
+}
+
+/* Move To Scroll Shape */
+.scrolling > span:after {
+    border-bottom: 25px solid #38486F;
+    border-right: 62px solid transparent;
+}
+
+#contact-us .customer-support-section .contact-message-box{
+	border:1px solid  #38486F;
+	border-left:1px solid #38486F !important;
+}
+
+.payment-method input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus{
+	outline:thin solid #38486F;
+}
+
+/* ============ Responsive color Change ==========*/
+/* ---------- MAX 767PX ---------- */
+@media only screen and (max-width:767px) {
+	.menu-bar .navbar-nav > li a{
+		border-bottom:1px solid #38486F;
+	}
+	.menu-bar .nav > li:hover , .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.active,.menu-bar .nav > li:hover:after{
+	color:#38486F;
+	}
+	.menu-bar .navbar-collapse, #bs-example-navbar-collapse-2 .menu-bar .navbar-nav > li > a{
+		border:1px solid #38486F;
+	}
+	.menu-bar .nav > li:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active, .navbar-default.menu-bar .navbar-nav > .open > a, .navbar-default.menu-bar .navbar-nav > .open > a:hover, .navbar-default.menu-bar .navbar-nav > .open > a:focus,.menu-bar .dropdown .dropdown-menu{
+		background:transparent;
+		color:#38486F !important;
+	}
+	.dropdown .dropdown-menu > li > a{
+		border-bottom:1px solid #38486F !important;
+	}
+	.dropdown .dropdown-menu > li > a:hover{
+		color:#38486F !important;
+	}
+	/* Blog */
+	.blog-post .blog-date:after {
+		border-left: 50px solid rgba(0, 0, 0, 0);
+		border-top: 15px solid #38486F;
+	}
+}
+@media screen and (max-width:480px) {
+	.new-additions .loadmore-btn .loadmore{
+		background: #38486F;
+	}
+	.owl-item .mask h3, .owl-item .mask .mask-links a, #projects .your-works-section .mask-links a .fa {	
+		color:#38486F;
+	}
+	.features-section .feature-icon:after {
+		border-left: 42px solid rgba(0, 0, 0, 0);
+		border-top: 10px solid 16b6ea;
+	}
+	.owl-item .mask h3, .owl-item .mask .mask-links a, #projects .your-works-section .mask-links a .fa {	
+		color:#38486F;
+	}
+}
