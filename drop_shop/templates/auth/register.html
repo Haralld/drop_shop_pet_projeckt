@@ -8,7 +8,56 @@
 
 {% block container %}
 
+<div class="page-desc-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 page-desc blog">
+                <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Вход в кабинет</h2>
+                <p class="animated" data-animation="fadeInLeft" data-animation-delay="300"></p>
+            </div>
+        </div>
+    </div>
+</div>
 
+<section id="login-section" class="login-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-18 ">
+                <div class="login-box">
+                    <div class="text-center"> 
+                        <h2>Регистрация нового пользователя</h2>
+                    </div>
+                    <div class="login-details">
+
+
+                        <form role="form" name="commentform" class="login-form" id="commentform" method="post" action='{% url "register" %}' enctype="multipart/form-data">
+                            {% csrf_token %}
+
+                            {% for field in user_form %}
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span style="color: red">{{ field.errors }}</span>
+                                    {{ field.label_tag }}
+                                    {{ field }}
+                                </div>
+                            </div>    
+                            {% endfor %}
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary send-button" >Зарегестрировать</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 {% endblock container %}

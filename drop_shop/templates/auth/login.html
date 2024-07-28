@@ -13,11 +13,12 @@
         <div class="row">
             <div class="col-md-12 page-desc blog">
                 <h2 class="animated" data-animation="fadeInRight" data-animation-delay="300">Вход в кабинет</h2>
-                <p class="animated" data-animation="fadeInLeft" data-animation-delay="300">Производство достижимо в разумные сроки. Поэтому перераспределение бюджета</p>
+                <p class="animated" data-animation="fadeInLeft" data-animation-delay="300"></p>
             </div>
         </div>
     </div>
 </div>
+
 <section id="login-section" class="login-section">
     <div class="container">
         <div class="row justify-content-center">
@@ -27,22 +28,35 @@
                         <h2>Войти в кабинет</h2>
                     </div>
                     <div class="login-details">
-                        <p>Производство достижимо в разумные сроки. Поэтому перераспределение бюджета отталкивает фирменный медийный канал, размещаясь во всех медиа.</p>
-                        <form role="form" name="commentform" class="login-form" id="commentform" method="post" action="#" enctype="multipart/form-data">
+
+
+                        <form role="form" name="commentform" class="login-form" id="commentform" method="post" action='{% url "login" %}' enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {{ attention }}
+
+                            {% for error in login_form.non_field_errors %}
+                            
+                            {{ error }}
+
+                            {% endfor %}
+
+
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="email" name="contact_email" id="contact_email" class="form-control input-email" placeholder="Логин или e-mail">
+                                    <input type="email" name="username" for="id_username" id="id_username" class="form-control input-email"  placeholder="Логин">
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="password" name="password" id="password" class="form-control" placeholder="Пароль">
+                                    <input type="password" name="password" id="id_password" for="id_password" class="form-control" placeholder="Пароль">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="submit" id="sendingbtn" class="btn btn-primary send-button" value="Войти">
+                                    <button type="submit" class="btn btn-primary send-button" >Войти</button>
                                 </div>
                             </div>
                         </form>
+
+
                     </div>
                 </div>
             </div>
