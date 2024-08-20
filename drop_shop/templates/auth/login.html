@@ -1,7 +1,6 @@
 {% extends "base-page.html" %}
 {% load static %}
 
-
 {% block title %}
     Login
 {% endblock title %}
@@ -22,41 +21,34 @@
 <section id="login-section" class="login-section">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-18 ">
+            <div class="col-xl-18">
                 <div class="login-box">
-                    <div class="text-center"> 
+                    <div class="text-center">
                         <h2>Войти в кабинет</h2>
                     </div>
                     <div class="login-details">
-
-
-                        <form role="form" name="commentform" class="login-form" id="commentform" method="post" action='{% url "login" %}' enctype="multipart/form-data">
+                        <form role="form" name="loginform" class="login-form" id="loginform" method="post" action="{% url 'login' %}">
                             {% csrf_token %}
-                            {{ attention }}
-
+                            {% if attention %}
+                                <div class="alert alert-danger">{{ attention }}</div>
+                            {% endif %}
                             {% for error in login_form.non_field_errors %}
-                            
-                            {{ error }}
-
+                                <div class="alert alert-danger">{{ error }}</div>
                             {% endfor %}
-
-
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="email" name="username" for="id_username" id="id_username" class="form-control input-email"  placeholder="Логин">
+                                    <input type="text" name="username" id="id_username" class="form-control" placeholder="Логин" value="{{ login_form.username.value|default:'' }}">
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="password" name="password" id="id_password" for="id_password" class="form-control" placeholder="Пароль">
+                                    <input type="password" name="password" id="id_password" class="form-control" placeholder="Пароль">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary send-button" >Войти</button>
+                                    <button type="submit" class="btn btn-primary send-button">Войти</button>
                                 </div>
                             </div>
                         </form>
-
-
                     </div>
                 </div>
             </div>

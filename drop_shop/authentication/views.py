@@ -13,7 +13,7 @@ def login_user(request):
         login_form = LoginForm(request.POST)
         if login_form.is_valid():
             username = login_form.cleaned_data['username']
-            password = login_form.changed_data['password']
+            password = login_form.cleaned_data['password']
             user = authenticate(username=username, password=password)
             if user:
                 login(request, user)
